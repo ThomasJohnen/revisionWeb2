@@ -1,0 +1,62 @@
+html,body{
+    height: 100%;
+    padding-top: 2%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image : url(../img/bg.jpg);
+    background-size : cover;
+    background-repeat: no-repeat;
+    
+}
+
+main{
+     /*to easily deal with sticky footer:
+     grow the main to fill the space*/
+     flex: 1 0 auto;
+}
+
+.aliCol{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1,h2,h3,h4,h5,h6{text-align: center;}
+
+.col h2{
+    color: white;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 10px; 
+
+}
+
+.col{
+    align-items: center;
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+    background-color: blueviolet;
+    border-color: blueviolet;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px black;
+    font-size: 16px;
+    padding : 5px;
+}
+
+.button:hover{
+    -moz-transition-duration: 500ms;
+    background-color: beige;
+    border-color: beige;
+    font-size: 18px;
+    padding: 10px;
+}
