@@ -1,0 +1,5 @@
+[
+  { "pseudo": "user1", "id": 1, "quantite": 2 },
+  { "pseudo": "user3", "id": 4, "quantite": 3 },
+  { "pseudo": "user2", "id": 1, "quantite": 3 }
+]

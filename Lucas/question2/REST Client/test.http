@@ -1,0 +1,17 @@
+@baseUrl = http://localhost:3000
+
+### save a purchases
+POST {{baseUrl}}/purchases/
+Content-Type: application/json
+
+{
+    "pseudo": "user3",
+    "id": 4,
+    "quantite": 3
+}
+
+### get 
+GET {{baseUrl}}/purchases/1
+
+### 
+GET {{baseUrl}}/recommendations/user1
